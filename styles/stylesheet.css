@@ -9,8 +9,7 @@ a:visited{
 a:hover{
   color:hotpink;
 }
-/*links for home or about*/
-a[href="about-me.html"]{
+#main-nav-links{
   color: black;
   font-size: 15px;
   padding: .5rem;
@@ -18,40 +17,28 @@ a[href="about-me.html"]{
   text-decoration: none;
   display: inline-block;
 }
-a[href="about-me.html"]:hover{
-  color:hotpink;
-  background-color: black;
-}
-a[href="index.html"]{
-  color: black;
-  background-color: hotpink;
-  font-size: 15px;
-  padding: .5rem;
-  text-decoration: none;
-  display: inline-block;
-}
-a[href="index.html"]:hover{
+#main-nav-links:hover{
   color:hotpink;
   background-color: black;
 }
 /*title/links for pages inside site*/
-#header{
+h5{
   color: orange;
   text-decoration: none;
   font-size: 25px;
 }
-#header:hover{
+h5:hover{
   color:black;
 }
 /*tiles of homepage*/
-#tiles{
+.tiles{
   width: 95%;
 }
 /*p description under links on index.html*/
-#description{
+.description{
   font-style:italic;
   color: grey;
-  margin-top: -15px;
+  margin-top: -35px;
 }
 /*font for body*/
 body{
