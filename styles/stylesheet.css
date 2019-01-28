@@ -1,3 +1,40 @@
-h1{
-  color: blue;
+/*links for home or about*/
+a[href="about-me.html"]{
+  color: black;
+  font-size: 15px;
+  padding: .5rem;
+  background-color: dodgerblue;
 }
+a[href="about-me.html"]:hover{
+  color:dodgerblue;
+  background-color: black;
+}
+a[href="index.html"]{
+  color: black;
+  background-color: dodgerblue;
+  font-size: 15px;
+  padding: .5rem;
+}
+a[href="index.html"]:hover{
+  color:dodgerblue;
+  background-color: black;
+}
+/*font for body*/
+body{
+  font-family: Arial;
+}
+/*h1*/
+h1{
+  color: rgb(230, 5, 0);
+  font-size: 40px;
+}
+/*h2*/
+/*h3*/
+/*h4*/
+/*p description under links on index.html*/
+#description{
+
+}
+/*ul*/
+/*images*/
+/*footer*/
