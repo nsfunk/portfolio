@@ -1,31 +1,38 @@
+/*links for everything else*/
+a{
+  color: firebrick;
+  text-decoration: none;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:hotpink;
+}
 /*links for home or about*/
 a[href="about-me.html"]{
   color: black;
   font-size: 15px;
   padding: .5rem;
-  background-color: dodgerblue;
+  background-color: hotpink;
   text-decoration: none;
   display: inline-block;
 }
 a[href="about-me.html"]:hover{
-  color:dodgerblue;
+  color:hotpink;
   background-color: black;
 }
 a[href="index.html"]{
   color: black;
-  background-color: dodgerblue;
+  background-color: hotpink;
   font-size: 15px;
   padding: .5rem;
   text-decoration: none;
   display: inline-block;
 }
 a[href="index.html"]:hover{
-  color:dodgerblue;
+  color:hotpink;
   background-color: black;
-}
-/*font for body*/
-body{
-  font-family: Arial;
 }
 /*title/links for pages inside site*/
 #header{
@@ -38,26 +45,75 @@ body{
 }
 /*tiles of homepage*/
 #tiles{
-  width: 90%;
+  width: 95%;
 }
-#image-in-tiles{
-  width: 100%;
-}
-/*h1*/
-h1{
-  color: rgb(230, 5, 0);
-  font-size: 40px;
-  text-transform: uppercase;
-}
-/*h2*/
-/*h3*/
-/*h4*/
 /*p description under links on index.html*/
 #description{
-  margin-top: -20px;
   font-style:italic;
   color: grey;
+  margin-top: -15px;
 }
-/*ul*/
-/*images*/
-/*footer*/
+/*font for body*/
+body{
+  font-family: Arial;
+  background-color: mistyrose;
+}
+/*code in semantics site*/
+code{
+  font-size:15px;
+  color:white;
+  background-color: black;
+}
+/*h1 - heading*/
+h1{
+  color: maroon;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*h2 in dummy1, 2, and puppy (as section header)*/
+h2{
+  color: white;
+  background-color: firebrick;
+  padding: 5px;
+  display: inline-block;
+}
+/*h3 in dummy1, 2, and puppy (as article&aside headers)*/
+h3{
+  font-style: italic;
+  text-indent: 23px;
+}
+/*h4 in about me, semantic elements, and sloths*/
+h4{
+  color:green;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+/*ul in sloths and puppies*/
+ul{
+  list-style-type: circle;
+  line-height: 200%;
+}
+#readings{
+  line-height: 15px;
+}
+/*images in sloths and semantic elements*/
+img{
+  width:100%;
+  border-style:dashed;
+  border-color: gold;
+}
+footer{
+  color: grey;
+  font-family: courier;
+  line-height: 0px;
+  margin-top: 80px;
+}
+details{
+  font-size:15px;
+  font-style: italic;
+  color: green;
+}
+sup{
+  font-size: 10px;
+}
