@@ -4,6 +4,8 @@ a[href="about-me.html"]{
   font-size: 15px;
   padding: .5rem;
   background-color: dodgerblue;
+  text-decoration: none;
+  display: inline-block;
 }
 a[href="about-me.html"]:hover{
   color:dodgerblue;
@@ -14,6 +16,8 @@ a[href="index.html"]{
   background-color: dodgerblue;
   font-size: 15px;
   padding: .5rem;
+  text-decoration: none;
+  display: inline-block;
 }
 a[href="index.html"]:hover{
   color:dodgerblue;
@@ -23,17 +27,36 @@ a[href="index.html"]:hover{
 body{
   font-family: Arial;
 }
+/*title/links for pages inside site*/
+#header{
+  color: orange;
+  text-decoration: none;
+  font-size: 25px;
+}
+#header:hover{
+  color:black;
+}
+/*tiles of homepage*/
+#tiles{
+  width: 90%;
+}
+#image-in-tiles{
+  width: 100%;
+}
 /*h1*/
 h1{
   color: rgb(230, 5, 0);
   font-size: 40px;
+  text-transform: uppercase;
 }
 /*h2*/
 /*h3*/
 /*h4*/
 /*p description under links on index.html*/
 #description{
-
+  margin-top: -20px;
+  font-style:italic;
+  color: grey;
 }
 /*ul*/
 /*images*/
