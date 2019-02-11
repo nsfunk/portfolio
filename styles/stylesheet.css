@@ -5,6 +5,12 @@ cg-blue: rgba(16, 128, 165, 1);
 pixie-powder: rgba(49, 8, 132, 1);
 north-texas-green: rgba(0, 153, 61, 1);
 */
+/*font for body*/
+body{
+  font-family: 'Noto Sans', Arial, sans-serif;
+  /*background-image: linear-gradient(to bottom right, white, rgba(200, 210, 210, 1));*/
+  padding: 1.5rem;
+}
 /*links for everything else*/
 a{
   color: rgba(55, 211, 141, 1);
@@ -37,19 +43,19 @@ h2:hover{
   color:rgba(55, 211, 141, 1);
 }
 /*tiles of homepage*/
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 .tiles{
-  width: 95%;
+  width: 45%;
 }
 /*p description under links on index.html*/
 .description{
   font-style:italic;
   color: grey;
   margin-top: -15px;
-}
-/*font for body*/
-body{
-  font-family: 'Noto Sans', Arial, sans-serif;
-  background-image: linear-gradient(to bottom right, white, rgba(200, 210, 210, 1));
 }
 /*code in semantics site*/
 code{
@@ -66,16 +72,17 @@ h1{
   margin-top: -.5rem;
 }
 /*h3 in dummy1, 2, and puppy (as article&aside headers)*/
-h3{
+h4{
   font-family: 'Concert One', 'Noto Sans', sans-serif;
   font-style: italic;
+  font-size: 20px;
   text-indent: 23px;
 }
 /*h4 in about me, semantic elements, and sloths*/
-h4{
+h3{
   color: rgba(0, 128, 165, 1);
   font-family: 'Concert One', 'Noto Sans', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: -10px;
 }
 /*ul in sloths and puppies*/
@@ -88,14 +95,16 @@ ul{
 }
 /*images in sloths and semantic elements*/
 img{
-  width:100%;
+  width:99%;
   border-style:solid;
   border-color: rgba(55, 211, 141, 1);
 }
 footer{
   color: grey;
   line-height: 0px;
-  margin-top: 80px;
+  font-size: 13px;
+  display: flex;
+  align-items: baseline;
 }
 details{
   font-size:15px;
