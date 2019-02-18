@@ -24,13 +24,19 @@ a:hover{
 }
 #main-nav-links{
   color: rgba(55, 211, 141, 1);
-  font-size: 15px;
+  font-size: 1rem;
   padding: .5rem;
   text-decoration: none;
   display: inline-block;
+  text-shadow: 2px 2px 6px white;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 #main-nav-links:hover{
   color:rgba(171, 232, 92, 1);
+  text-shadow: 2px 2px 6px rgb(236, 235, 235);
 }
 /*title/links for pages inside site*/
 h2{
@@ -38,9 +44,14 @@ h2{
   color: rgba(0, 153, 61, 1);
   text-decoration: none;
   font-size: 25px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 h2:hover{
   color:rgba(55, 211, 141, 1);
+  font-size: 30px;
 }
 /*tiles of homepage*/
 .grid{
@@ -50,6 +61,16 @@ h2:hover{
 }
 .tiles{
   width: 45%;
+}
+.tiles-images{
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.tiles-images:hover{
+  opacity: 1;
 }
 /*p description under links on index.html*/
 .description{
