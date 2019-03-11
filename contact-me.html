@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="main-nav-links" href="index.html"><i class="fas fa-home"></i></a>
+      <a class="main-nav-links" href="about-me.html"><i class="far fa-user"></i></a>
+    </nav>
+  <h1>Contact Me</h1>
+  </header>
+
+  <h3>For inquiries on my portfolio and availability, fill out form below:</h3>
+  <br>
+  <form method="GET">
+    <label> Your Name:
+      <input type="text" name="inquirerName">
+    </label>
+
+    <label> Your Email:
+      <input type="email" name="inquirerEmail">
+    </label>
+
+    <fieldset class="checkbox">
+      <legend>Are you an employer inquiring about my upcoming project availablility?</legend>
+      <label>Yes
+        <input type="radio" name="availability" value="yes">
+        <span class="checkmark"></span>
+      </label>
+      <label>No
+        <input type="radio" name="availability" value="no">
+        <span class="checkmark"></span>
+      </label>
+    </fieldset>
+
+    <label> If yes, what is the name of your company?
+      <input type="text" name="inquirerCompany">
+    </label>
+
+    <fieldset class="checkbox">
+      <legend>What day would you prefer to be contacted?</legend>
+      <label>Monday
+        <input type="checkbox" name="day" value="mon">
+        <span class="checkmark"></span>
+      </label>
+      <label>Tuesday
+        <input type="checkbox" name="day" value="tue">
+        <span class="checkmark"></span>
+      </label>
+      <label>Wednesday
+        <input type="checkbox" name="day" value="wed">
+        <span class="checkmark"></span>
+      </label>
+      <label>Thursday
+        <input type="checkbox" name="day" value="thu">
+        <span class="checkmark"></span>
+      </label>
+      <label>Friday
+        <input type="checkbox" name="day" value="fri">
+        <span class="checkmark"></span>
+      </label>
+    </fieldset>
+
+    <fieldset class="checkbox">
+      <legend>What time of day would you prefer to be contacted?</legend>
+      <label>Morning
+        <input type="checkbox" name="timeframe" value="morning">
+        <span class="checkmark"></span>
+      </label>
+      <label>Afternoon
+        <input type="checkbox" name="timeframe" value="afternoon">
+        <span class="checkmark"></span>
+      </label>
+      <label>Evening
+        <input type="checkbox" name="timeframe" value="evening">
+        <span class="checkmark"></span>
+      </label>
+    </fieldset>
+
+    <label>Provide any addition information below:
+      <textarea name="inquirerReason" rows="5" cols="100">Please contact me at your earliest convenience</textarea>
+    </label>
+
+    <input type="submit" value="Send!">
+  </form>
+</body>
+</html>
