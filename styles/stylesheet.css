@@ -22,7 +22,7 @@ a:visited{
 a:hover{
   color: rgba(171, 232, 92, 1);
 }
-#main-nav-links{
+.main-nav-links{
   color: rgba(55, 211, 141, 1);
   font-size: 1rem;
   padding: .5rem;
@@ -34,7 +34,7 @@ a:hover{
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-#main-nav-links:hover{
+.main-nav-links:hover{
   color:rgba(171, 232, 92, 1);
   text-shadow: 2px 2px 6px rgb(236, 235, 235);
 }
@@ -134,4 +134,77 @@ details{
 }
 sup{
   font-size: 10px;
+}
+/*.contact-me-button to go to contact-me.html form*/
+/*contact-me.html form*/
+button, input, select, textarea{
+  font-family: inherit;
+  font-size: 100%;
+  display: block;
+  margin: 1rem;
+}
+input{
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 1.5rem;
+}
+input[type=submit]{
+  width: 100%;
+  background-color: rgba(0, 128, 165, 1);
+  height: 3rem;
+  margin: 0rem;
+}
+fieldset{
+  border: none;
+}
+fieldset input{
+  display: inline;
+}
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/*customize labels*/
+.checkbox label{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+/*customize checkboxes*/
+.checkmark {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightGray;
+}
+.checkbox label:hover input ~ .checkmark{
+  background-color: rgba(171, 232, 92, 1);
+}
+.checkbox input:checked ~ .checkmark{
+  background-color: rgba(55, 211, 141, 1);
+}
+.checkmark:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkmark:after{
+  display: block;
+}
+.checkbox .checkmark:after{
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
