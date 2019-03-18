@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+}
+/*header start*/
+header{
+  background-color: SkyBlue;
+  padding-top: 4rem;
+  padding-right: 13rem;
+  padding-bottom: 4rem;
+  padding-left: 13rem;
+  margin: -1rem;
+}
+h1{
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+#beneath-h1{
+  color: white;
+  font-size: 25px;
+  margin-top: -20px;
+  width: 20rem;
+}
+nav{
+  background-color: WhiteSmoke;
+  padding: 2rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  margin: -1rem;
+}
+.nav-links{
+  color: grey;
+  text-decoration: none;
+  word-spacing: normal;
+}
+.between-nav{
+  color: grey;
+  word-spacing: 10px;
+}
+/*header stop*/
+.body{
+  padding-top: 3rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
+  padding-bottom: 8rem;
+}
+section{
+  padding-bottom: 2rem;
+}
+p{
+  color: DimGray;
+}
+h2{
+  color: SkyBlue;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: SkyBlue;
+}
+q{ /*index.html*/
+  color: SkyBlue;
+  font-size: 22px;
+}
+#source-quote{ /*index.html*/
+  color: SkyBlue;
+  font-size: 22px;
+  margin-top: -0.01rem;
+  margin-bottom: -0.5rem;
+}
+h3{
+  color: DimGray;
+  margin-bottom: -0.5rem;
+}
+.main{ /*index.html*/
+  float: left;
+  width: 70%;
+}
+aside{ /*index.html*/
+  float: right;
+  width: 30%;
+  padding-left: 3rem;
+}
+figure{
+  margin: 0px;
+  padding-bottom: 1.5rem;
+}
+.aside-figure{
+  margin: 0px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+img{
+  width:100%;
+}
+h4 {
+  color: CadetBlue;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+.grid{ /*kitty-profiles.html*/
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+.profiles{ /*kitty-profiles.html*/
+  width: 33.3%;
+  padding: 1%;
+}
+/*footer start*/
+footer{
+  background-color: DimGray;
+  padding-top: 4rem;
+  padding-right: 13rem;
+  padding-bottom: 4rem;
+  padding-left: 13rem;
+  margin: 0rem -1rem 0rem -1rem;
+  clear: both;
+}
+#logo{
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-text{
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+.footer-links{
+  color: white;
+  text-decoration: none;
+  word-spacing: normal;
+}
+.between-footer-links{
+  color: white;
+  word-spacing: 10px;
+  text-align: center;
+}
+/*footer stop*/
