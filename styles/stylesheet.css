@@ -187,3 +187,11 @@ fieldset input{
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+.sr-only {
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
