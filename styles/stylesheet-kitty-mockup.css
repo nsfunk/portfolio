@@ -140,4 +140,12 @@ footer{
   word-spacing: 10px;
   text-align: center;
 }
-/*footer stop*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+  z-index: 999;
+}
