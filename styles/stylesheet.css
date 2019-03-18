@@ -28,15 +28,9 @@ a:hover{
   padding: .5rem;
   text-decoration: none;
   display: inline-block;
-  text-shadow: 2px 2px 6px white;
-  transition-property: opacity;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
 }
 .main-nav-links:hover{
   color:rgba(171, 232, 92, 1);
-  text-shadow: 2px 2px 6px rgb(236, 235, 235);
 }
 /*title/links for pages inside site*/
 h2{
@@ -61,7 +55,7 @@ h2:hover{
 .description{
   font-style:italic;
   color: grey;
-  margin-top: -15px;
+  margin-top: -1rem;
 }
 /*code in semantics site*/
 code{
@@ -75,9 +69,9 @@ h1{
   font-family: 'Concert One', cursive, sans-serif;
   font-size: 40px;
   text-align: center;
-  margin-top: -.5rem;
+  margin-top: -.25rem;
 }
-/*h3 in dummy1, 2, and puppy (as article&aside headers)*/
+/*h3 in puppy (as article&aside headers)*/
 h4{
   font-family: 'Concert One', 'Noto Sans', sans-serif;
   font-style: italic;
